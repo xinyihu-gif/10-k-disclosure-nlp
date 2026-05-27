@@ -1,0 +1,22 @@
+{
+  "experiment_tag": "sif_threshold_only_v1",
+  "best_validation": {
+    "threshold": 0.45,
+    "val_accuracy": 0.5739030023094688,
+    "val_f1": 0.7288758265980897
+  },
+  "test_results": {
+    "accuracy": 0.5689939527212754,
+    "f1": 0.7252978276103714,
+    "confusion_matrix": [
+      [
+        0,
+        784
+      ],
+      [
+        0,
+        1035
+      ]
+    ]
+  }
+}

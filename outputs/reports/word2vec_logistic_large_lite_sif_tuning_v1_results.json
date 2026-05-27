@@ -1,0 +1,55 @@
+{
+  "dataset_tag": "large_lite",
+  "base_embedding_tag": "word2vec_large_lite",
+  "experiment_tag": "sif_tuning_v1",
+  "best_validation_result": {
+    "candidate_id": 6,
+    "C": 0.1,
+    "class_weight": "balanced",
+    "threshold": 0.4,
+    "val_accuracy": 0.5762124711316398,
+    "val_f1": 0.7307410124724871
+  },
+  "test_results": {
+    "threshold": 0.4,
+    "test_accuracy": 0.5689939527212754,
+    "test_f1": 0.7252978276103714,
+    "confusion_matrix": [
+      [
+        0,
+        784
+      ],
+      [
+        0,
+        1035
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 784.0
+      },
+      "1": {
+        "precision": 0.5689939527212754,
+        "recall": 1.0,
+        "f1-score": 0.7252978276103714,
+        "support": 1035.0
+      },
+      "accuracy": 0.5689939527212754,
+      "macro avg": {
+        "precision": 0.2844969763606377,
+        "recall": 0.5,
+        "f1-score": 0.3626489138051857,
+        "support": 1819.0
+      },
+      "weighted avg": {
+        "precision": 0.323754118233381,
+        "recall": 0.5689939527212754,
+        "f1-score": 0.4126900778321794,
+        "support": 1819.0
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dataset_tag": "large_lite",
+  "experiment_tag": "mean_scaled_v1",
+  "best_validation_result": {
+    "candidate_id": 2,
+    "C": 0.003,
+    "val_accuracy": 0.5600461893764435,
+    "val_f1": 0.7053364269141531
+  },
+  "test_results": {
+    "test_accuracy": 0.5711929631665751,
+    "test_f1": 0.6979085979860573,
+    "confusion_matrix": [
+      [
+        138,
+        646
+      ],
+      [
+        134,
+        901
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.5073529411764706,
+        "recall": 0.1760204081632653,
+        "f1-score": 0.26136363636363635,
+        "support": 784.0
+      },
+      "1": {
+        "precision": 0.5824175824175825,
+        "recall": 0.8705314009661835,
+        "f1-score": 0.6979085979860573,
+        "support": 1035.0
+      },
+      "accuracy": 0.5711929631665751,
+      "macro avg": {
+        "precision": 0.5448852617970266,
+        "recall": 0.5232759045647244,
+        "f1-score": 0.47963611717484683,
+        "support": 1819.0
+      },
+      "weighted avg": {
+        "precision": 0.5500642681058553,
+        "recall": 0.5711929631665751,
+        "f1-score": 0.5097550796177351,
+        "support": 1819.0
+      }
+    }
+  },
+  "avg_train_token_coverage": 0.9997788557314715,
+  "avg_validation_token_coverage": 0.9972085818505254,
+  "avg_test_token_coverage": 0.9969155787660218
+}

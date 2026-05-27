@@ -1,0 +1,11 @@
+{
+  "training_source": "train_doc_5d.parquet",
+  "n_documents": 188,
+  "vocab_size": 14600,
+  "avg_document_length_tokens": 27020.93085106383,
+  "vector_size": 100,
+  "window": 5,
+  "min_count": 2,
+  "sg": 1,
+  "epochs": 10
+}

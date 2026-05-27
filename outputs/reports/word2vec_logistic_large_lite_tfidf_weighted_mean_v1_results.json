@@ -1,0 +1,57 @@
+{
+  "dataset_tag": "large_lite",
+  "experiment_tag": "tfidf_weighted_mean_v1",
+  "best_validation_result": {
+    "candidate_id": 1,
+    "C": 0.003,
+    "val_accuracy": 0.569284064665127,
+    "val_f1": 0.7218493661446681
+  },
+  "test_results": {
+    "test_accuracy": 0.5623969213853766,
+    "test_f1": 0.7151037938439513,
+    "confusion_matrix": [
+      [
+        24,
+        760
+      ],
+      [
+        36,
+        999
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.4,
+        "recall": 0.030612244897959183,
+        "f1-score": 0.05687203791469194,
+        "support": 784.0
+      },
+      "1": {
+        "precision": 0.5679363274587834,
+        "recall": 0.9652173913043478,
+        "f1-score": 0.7151037938439513,
+        "support": 1035.0
+      },
+      "accuracy": 0.5623969213853766,
+      "macro avg": {
+        "precision": 0.4839681637293917,
+        "recall": 0.4979148181011535,
+        "f1-score": 0.38598791587932163,
+        "support": 1819.0
+      },
+      "weighted avg": {
+        "precision": 0.49555475476626765,
+        "recall": 0.5623969213853766,
+        "f1-score": 0.43140192652754705,
+        "support": 1819.0
+      }
+    }
+  },
+  "avg_train_token_coverage": 0.9997788557314715,
+  "avg_validation_token_coverage": 0.9972085818505254,
+  "avg_test_token_coverage": 0.9969155787660218,
+  "tfidf_dictionary_size": 50000,
+  "tfidf_no_below": 10,
+  "tfidf_no_above": 0.8
+}

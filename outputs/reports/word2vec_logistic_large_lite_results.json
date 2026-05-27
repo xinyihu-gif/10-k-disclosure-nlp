@@ -1,0 +1,53 @@
+{
+  "best_validation_result": {
+    "candidate_id": 1,
+    "C": 0.1,
+    "val_accuracy": 0.5704387990762124,
+    "val_f1": 0.716030534351145
+  },
+  "test_results": {
+    "test_accuracy": 0.5722924683892249,
+    "test_f1": 0.7061933534743202,
+    "confusion_matrix": [
+      [
+        106,
+        678
+      ],
+      [
+        100,
+        935
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.5145631067961165,
+        "recall": 0.13520408163265307,
+        "f1-score": 0.21414141414141413,
+        "support": 784.0
+      },
+      "1": {
+        "precision": 0.5796652200867948,
+        "recall": 0.9033816425120773,
+        "f1-score": 0.7061933534743202,
+        "support": 1035.0
+      },
+      "accuracy": 0.5722924683892249,
+      "macro avg": {
+        "precision": 0.5471141634414556,
+        "recall": 0.5192928620723651,
+        "f1-score": 0.46016738380786715,
+        "support": 1819.0
+      },
+      "weighted avg": {
+        "precision": 0.5516058155678878,
+        "recall": 0.5722924683892249,
+        "f1-score": 0.49411599204661355,
+        "support": 1819.0
+      }
+    }
+  },
+  "avg_train_token_coverage": 0.9997788557314715,
+  "avg_validation_token_coverage": 0.9972085818505254,
+  "avg_test_token_coverage": 0.9969155787660218,
+  "sif_a": 0.001
+}

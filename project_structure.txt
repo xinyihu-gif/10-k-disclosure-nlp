@@ -1,0 +1,109 @@
+si630_nlp_project/
+├── data
+│   ├── external
+│   ├── interim
+│   │   ├── test_doc_embedding_finbert_small_full.npy
+│   │   ├── test_doc_embedding_word2vec_small_full.npy
+│   │   ├── test_sent_small_full.parquet
+│   │   ├── train_doc_embedding_finbert_small_full.npy
+│   │   ├── train_doc_embedding_word2vec_small_full.npy
+│   │   ├── train_sent_small_full.parquet
+│   │   ├── validation_doc_embedding_finbert_small_full.npy
+│   │   ├── validation_doc_embedding_word2vec_small_full.npy
+│   │   └── validation_sent_small_full.parquet
+│   ├── processed
+│   │   ├── test_doc_5d.parquet
+│   │   ├── test_doc_5d_large_lite.parquet
+│   │   ├── train_doc_5d.parquet
+│   │   ├── train_doc_5d_large_lite.parquet
+│   │   ├── train_doc_5d_large_lite.parquet_核心副本
+│   │   ├── validation_doc_5d.parquet
+│   │   └── validation_doc_5d_large_lite.parquet
+│   └── raw
+├── models
+│   ├── baselines
+│   │   ├── finbert_embedding_logistic_small_full.joblib
+│   │   ├── tfidf_logistic_large_lite.joblib
+│   │   ├── tfidf_logistic_small_full.joblib
+│   │   └── word2vec_logistic_small_full.joblib
+│   ├── embeddings
+│   │   ├── word2vec_small_full.kv
+│   │   └── word2vec_small_full.model
+│   └── final_models
+├── notebooks
+├── outputs
+│   ├── figures
+│   ├── logs
+│   ├── predictions
+│   ├── reports
+│   │   ├── finbert_embedding_logistic_small_full_results.json
+│   │   ├── random_baseline_large_lite.json
+│   │   ├── tfidf_logistic_large_lite_results.json
+│   │   ├── tfidf_logistic_small_full_results.json
+│   │   ├── word2vec_logistic_small_full_results.json
+│   │   └── word2vec_training_summary.json
+│   └── tables
+│       ├── finbert_embedding_logistic_small_full_validation_results.csv
+│       ├── large_lite_dataset_statistics.csv
+│       ├── lexical_cues_negative_large_lite.csv
+│       ├── lexical_cues_positive_large_lite.csv
+│       ├── report_document_examples_small_full.csv
+│       ├── tfidf_logistic_large_lite_top_negative_terms.csv
+│       ├── tfidf_logistic_large_lite_top_positive_terms.csv
+│       ├── tfidf_logistic_large_lite_validation_results.csv
+│       ├── tfidf_logistic_top_negative_terms.csv
+│       ├── tfidf_logistic_top_positive_terms.csv
+│       ├── tfidf_logistic_validation_results.csv
+│       └── word2vec_logistic_small_full_validation_results.csv
+├── scripts
+│   ├── 00_init_project.py
+│   ├── 01_download_and_standardize_data.py
+│   ├── 02_build_document_dataset.py
+│   ├── 03_train_tfidf_logistic.py
+│   ├── 04_train_word2vec.py
+│   ├── 05_word2vec_logistic.py
+│   ├── 06_finbert_embedding_baseline.py
+│   ├── 07_build_document_dataset_large_lite.py
+│   ├── 08_large_lite_statistics.py
+│   ├── 09_train_tfidf_logistic_large_lite.py
+│   ├── 10_random_baseline.py
+│   ├── 11_lexical_cue_analysis.py
+│   └── 12_extract_report_examples.py
+├── src
+│   ├── evaluation
+│   │   ├── __init__.py
+│   │   ├── error_analysis.py
+│   │   ├── metrics.py
+│   │   └── run_evaluation.py
+│   ├── features
+│   │   ├── __init__.py
+│   │   ├── bow_features.py
+│   │   ├── embedding_utils.py
+│   │   ├── tfidf_features.py
+│   │   └── word2vec_features.py
+│   ├── models
+│   │   ├── __init__.py
+│   │   ├── baseline_models.py
+│   │   ├── predict.py
+│   │   ├── train_classifier.py
+│   │   └── train_word2vec.py
+│   ├── preprocessing
+│   │   ├── __init__.py
+│   │   ├── build_dataset.py
+│   │   ├── clean_text.py
+│   │   └── split_data.py
+│   ├── utils
+│   │   ├── __init__.py
+│   │   ├── io_utils.py
+│   │   └── seed_utils.py
+│   ├── visualization
+│   │   ├── __init__.py
+│   │   ├── embedding_viz.py
+│   │   └── plots.py
+│   └── __init__.py
+├── tests
+├── .gitignore
+├── config.py
+├── main.py
+├── README.md
+└── requirements.txt

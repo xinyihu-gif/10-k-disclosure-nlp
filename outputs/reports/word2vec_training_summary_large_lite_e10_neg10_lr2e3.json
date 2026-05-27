@@ -1,0 +1,18 @@
+{
+  "dataset_tag": "large_lite",
+  "experiment_tag": "e10_neg10_lr2e3",
+  "training_source": "train_doc_5d_large_lite.parquet",
+  "corpus_file": "/Users/huxinyi/Desktop/SI 630/si630_nlp_project/data/processed/train_doc_5d_large_lite_corpus_e10_neg10_lr2e3.txt",
+  "n_documents": 52411,
+  "total_tokens": 1827695151,
+  "avg_document_length_tokens": 34872.35792104711,
+  "vocab_size": 235839,
+  "vector_size": 100,
+  "window": 5,
+  "min_count": 5,
+  "sg": 1,
+  "epochs": 10,
+  "negative": 10,
+  "alpha": 0.002,
+  "min_alpha": 0.002
+}
